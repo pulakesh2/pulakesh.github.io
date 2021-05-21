@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <style>
+        body{
+            display: flex;
+            background-color: aqua;
+            justify-content: center;
+           padding-top:  135px;
+        }
+       #container{
+           text-align: center;
+           padding:  30px;
+           background-color: white;
+           box-shadow: black 3px 3px 11px ;
+       }
+       .msg{
+           margin: 0px;
+           color: red;
+       }
+       input{
+           margin: 0px;
+           width:222px;
+           height: 35px;
+       }
+       .sub{
+           background-color:aqua ;
+           border-color: white;
+           font-size: 20px;
+           cursor: pointer;
+       }
+
+
+    </style>
+</head>
+<body>
+    
+      <div id="container">
+        <h1>Form Fill up</h1>
+        <form action="response.html" method="POST" onsubmit="return form_valid()">
+           <input type="text" placeholder="username" id="username"><br>
+           <p id="error_user" class="msg"></p><br>
+           <input type="password" placeholder="password" id="password"><br>
+           <p id="error_pass" class="msg"></p><br>
+           <input type="submit" value="submit" class="sub">
+        </form>
+      </div>
+      <script>
+             function form_valid(){
+                 var device = "t";
+                 if(document.getElementById('username').value == ""){
+                     document.getElementById('error_user').textContent = "username is empty";
+                     device = "f";
+
+                 }else if(document.getElementById('username').value.length < 4){
+                    document.getElementById('error_user').textContent = "username must be 4character or more";
+                    device = "f";
+
+                 }else{
+                    document.getElementById('error_user').textContent = "";
+                    device = "t";
+
+                 }
+
+                 if(document.getElementById('password').value == ""){
+                    document.getElementById('error_pass').textContent = "password is empty";
+                    device = "f";
+
+                 }else{
+                   
+                    if(document.getElementById('username').value == ""){
+                        document.getElementById('error_user').textContent = "username is empty"; 
+                        device = "f";
+                      }else if(document.getElementById('username').value.length < 4){
+                    document.getElementById('error_user').textContent = "username must be 4character or more";
+                    device = "f";}
+
+                         
+                     else{
+                        document.getElementById('error_pass').textContent = "";
+                        device = "t"
+                      }
+                    }
+                      
+                      
+                      
+                      
+                   
+
+                    
+
+
+                 if(device == "f"){
+                     return false;
+                 }else{
+                     return true;
+                 }
+             }
+      </script>
+</body>
+</html>
