@@ -1,0 +1,88 @@
+
+
+body{
+    background-color: black;
+    min-height: fit-content;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#heading{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+
+}
+
+#doge_img1{
+    width: 400px;
+
+}
+#doge_img1{
+    width: 400px;
+    
+    
+}
+#who_doge b{
+    font-weight: bolder;
+    color: white;
+    font-size: larger;
+    text-transform: uppercase;
+}
+#who_doge{
+    color: white;
+    font-weight: 900;
+    text-align: justify;
+    line-height: 1.4em;
+}
+#doge_info{
+    width: 850px;
+    padding: 40px;
+    float: right;
+}
+#doge_img{
+    float: left;
+}
+
+#dogecoin{
+    color: white;
+    font-weight: 900;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+#dogecoin b{
+    font-weight: bolder;
+    color: white;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+@media only screen and(min-width:400px){
+     
+    body{
+        width: 400px;
+    }
+       
+#doge_img{
+    float:none;
+    
+    
+
+}
+
+#doge_info{
+    width:fit-content;
+   padding: 10px;
+    float: none;
+    word-spacing: 90px;
+
+
+}
+#dogcoin{
+    line-height: 2.2em;
+    margin-top: 40px;
+}
+
+
+}
