@@ -1,5 +1,6 @@
 body{
     font-family: arial;
+    background-color: white;
 }
 #header{
     float: right;
@@ -17,7 +18,7 @@ img{
 .search_bar{  
     border-radius: 15px;
     width: 50%; 
-    height: 25px;
+    height: 35px;
 
     
 }
@@ -28,16 +29,18 @@ img{
     height: 25px;
     width: 100px;
     
+    
 }
 #footer{
+    margin-top: 10px;
     float: right;
-    width: 40%;
+    width: 57%;
 }
 @media (max-width:900px){
     img{
         width: 50%;
         height: 50%;
-        padding-left: 10%;
+        padding-left: 8%;
 
     
     }
@@ -46,9 +49,10 @@ img{
     }
     .search_bar{
         width: 70%;
+        height: 40px;
     }
     #header>button{
-        height: 25px;
+        height: 35px;
         
     }
     #header{
@@ -59,34 +63,41 @@ img{
          height: 4%;
          width: 30%;
     }
+    #footer{
+        width: 44%;
+    }
 }
 @media(max-width:420px){
     #header>button{
-        font-size: 12px;
+        font-size: 15px;
         
-        height: 26px;
-        font-weight: bold;
+        height: 36px;
+        /* font-weight: bold; */
     }
     img{
        padding-right: 4%;
-       padding-top: 40%;
+       padding-top: 30%;
+       height: 50%;
+       width: 95%;
     }       
     #img_container{
         padding-right: 100px;
     }
     .search_bar{
-        width: 70%;
+        width: 90%;
+        height: 37px;
     }
     .sub{
         
         width: 30%;
+        /* height: 25%; */
         /* font-size: 50%; */
     }
     .sub1{
         width: 50%;
     }
    #footer{
-       width: 75%;
+       width: 63%;
        font-size: 70%;
        height: 20%;
        
