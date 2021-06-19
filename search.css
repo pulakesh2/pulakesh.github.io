@@ -5,6 +5,12 @@ body{
 #header{
     float: right;
 }
+#header>a{
+    float: right;
+}
+#header>a>button{
+    color: blue;
+}
 
 img{
     /* margin-left: 200px; */
@@ -40,7 +46,7 @@ img{
     img{
         width: 50%;
         height: 50%;
-        padding-left: 8%;
+        padding-left: 0%;
 
     
     }
