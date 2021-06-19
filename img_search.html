@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>image search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="img_search.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div id="header">
+        <a href="search.html">
+            <button type="button" class="btn btn-light">go to google search</button>
+        </a>
+    </div>
+
+    <center id="img_container">
+        <img src="search.jpeg" alt="file doesnt found">
+    </center>
+    <center id="img_add">
+
+    </center>
+    <form action="https://www.google.com/images" method="GET">
+        <center>
+            <input type="text" placeholder="search" name="q" class="search_bar">
+        </center>
+        <center id="submit">
+            <input class="btn btn-light" type="submit" value="image Search" class="sub">
+        </center>
+    </form>
+</body>
+
+</html>

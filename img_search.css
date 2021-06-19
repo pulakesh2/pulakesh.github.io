@@ -1,0 +1,52 @@
+#header>a{
+    float: right;
+    /* color: blue; */
+}
+#header>a>button{
+    color: blue;
+}#submit{
+    margin-top: 10px;
+}
+
+img{
+    width: 60%;
+    height: 300px;
+    padding-left: 150px;
+}
+.search_bar{
+    width: 70%;
+    height: 33px;
+    border-radius: 10px;
+    
+}
+.sub{
+    margin-top: 30px;
+}
+@media (max-width:900px){
+    img{
+        width: 100%;
+        height: 250px;
+        padding-right: 20%;
+    }
+    #img_container{
+         padding-top: 35%;
+    }
+    .search_bar{
+        width: 75%;
+    }
+}
+@media (max-width:420px){
+    #img_container{
+        
+        display:none;
+       
+    }
+    #img_add{
+        content: url("search.jpeg");
+        width: 100%;
+        padding-top: 35%;
+    }
+    .search_bar{
+        width: 90%;
+    }
+}
