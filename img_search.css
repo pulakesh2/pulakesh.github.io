@@ -3,7 +3,7 @@
     /* color: blue; */
 }
 #header>a>button{
-    color: blue;
+    color: white;
 }#submit{
     margin-top: 10px;
 }
@@ -36,17 +36,28 @@ img{
     }
 }
 @media (max-width:420px){
+    
+    body{
+        background-image: url("me.png");
+        background-position: center;
+    }
     #img_container{
         
         display:none;
        
     }
+/*     
     #img_add{
         content: url("search.jpeg");
         width: 100%;
         padding-top: 35%;
-    }
+    } */ 
+
     .search_bar{
         width: 90%;
     }
+    #content{
+        padding-top: 110%;
+    }
+
 }

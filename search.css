@@ -1,6 +1,6 @@
 body{
     font-family: arial;
-    background-color: white;
+    
 }
 #header{
     float: right;
@@ -9,7 +9,7 @@ body{
     float: right;
 }
 #header>a>button{
-    color: blue;
+    color: white;
 }
 
 img{
@@ -74,9 +74,17 @@ img{
     }
 }
 @media(max-width:420px){
+    body{
+        
+        background-image: url("me.png");
+        background-position: center;
+    }
+    #header>a>button{
+        color: white;
+    }
     #header>button{
         font-size: 15px;
-        
+    
         height: 36px;
         /* font-weight: bold; */
     }
@@ -85,13 +93,17 @@ img{
        padding-top: 30%;
        height: 50%;
        width: 95%;
+       display: none;
+
     }       
     #img_container{
         padding-right: 100px;
+       
     }
     .search_bar{
         width: 90%;
         height: 37px;
+       
     }
     .sub{
         
@@ -111,5 +123,11 @@ img{
    .sub,.sub1{
             font-weight: 2px;
       
+   }
+   #header{
+       padding-bottom: 40;
+   }
+   #search_button{
+       padding-top: 120%;
    }
 }
