@@ -1,0 +1,192 @@
+
+body{
+    /* background-color:sienna; */
+    background-image: url("img/3.jpg");
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+#content{
+    display: grid;
+    grid-template-rows: 150px 40px 180px 230px 230px 340px;
+    grid-template-columns: 170px 170px 170px 170px 170px 170px;
+    margin: auto 118px;
+    grid-gap:45px;
+}
+.div21{
+    
+    grid-column: 1/2;
+}
+.div22{
+    
+        grid-column: 2/3;
+}
+.div23{
+    
+     grid-column: 3/4;
+}
+.div24{
+    
+    grid-column: 4/5;
+}
+.div25{
+    
+    grid-column: 5/6;
+}
+.div26{
+    
+    grid-column: 6/7;
+}
+
+.divn1{
+     /* background-color:rgb(211, 34, 34); */
+     /* background-image: url("img/premier.jpeg"); */
+     grid-column: 1/2;
+     background-color: blue;
+}
+.divn2{
+     /* background-color: rgb(221, 162, 162); */
+     grid-column: 2/3;
+     background-color: blue;   
+}
+.divn3{
+    /* background-color: rgb(73, 12, 12); */
+    grid-column: 3/4;
+    background-color: blue;
+    
+}
+.divn4{
+    /* background-color:blue; */
+    grid-column: 4/5;
+    background-color: blue;
+    
+}
+.divn5{
+    /* background-color: blue; */
+    grid-column: 5/6;
+    background-color: blue;
+    
+}
+.divn6{
+    background-color: blue;
+    grid-column: 6/7;
+    
+}
+#league{
+    text-align: center;
+    color: white;
+    
+}
+.line{
+    display: inline;
+    color: wheat;
+    font-size: large;
+    text-transform: capitalize;
+}
+.list{
+       color: white;
+       text-transform: capitalize;
+       font-weight: bolder;
+       text-align: center;
+       text-decoration: unset;
+       font-size: larger;
+
+}
+
+
+
+
+.div1{
+     /* background-color: deeppink; */
+     grid-column: 1/-1;
+     
+}
+.div2{
+    /* background-color: darkred; */
+    grid-column: 1/-1;
+}
+.div3{
+    /* background-color: darkolivegreen; */
+    grid-column: 1/3;
+    cursor: pointer;
+}
+.div4{
+    /* background-color: darkblue; */
+    grid-column: 3/5;
+    cursor: pointer;
+}
+.div5{
+    /* background-color: chocolate; */
+    grid-column: 5/7;
+    cursor: pointer;
+}
+.div6{
+    /* background-color: chartreuse; */
+    grid-column:1/3;
+    cursor: pointer;
+}
+.div7{
+    /* background-color: black; */
+    grid-column: 3/5;
+    cursor: pointer;
+}
+.div8{
+    /* background-color: aqua; */
+    grid-column: 5/7;
+    cursor: pointer;
+}
+#info{
+    grid-column: 2/6;
+    background-color: slateblue;
+    height: 400px;
+}
+.text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+
+}
+.header{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.conten{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+.listheading{
+    text-align: center;
+    color:white;
+    font-size: large;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration:overline;
+}
+
+#teams{
+    color: white;
+    font-size: medium;
+
+}
+#playerinfo{
+    text-align: justify;
+    padding: 30px;
+    line-height: 1.5em;
+    font-size: 20px;
+    color: white;
+    
+}
+#name{
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
