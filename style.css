@@ -1,137 +1,132 @@
-
-#divn1{
-    width:100%;
+* {
+  margin: 0;
+  padding: 0;
+}
+article header {
+  margin-bottom: 30px;
+}
+.h2 {
+  margin-bottom: 10px;
+  margin-top: 35px;
+}
+article {
+  margin-bottom: 50px;
+}
+ol,
+ul {
+  padding: 0 80px;
+}
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
 }
 
-#divn2{
-    width:100%;
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+h2 {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+h3 {
+  font-size: 22px;
+  text-align: center;
 }
 
-#divn3{
-    width:100%;
+p {
+  line-height: 1.5;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-#divn4{
-    width:100%;
+li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 
-#divn5{
-    width:100%;
+#author {
+  font-size: 16px;
+  font-style: italic;
 }
 
-#divn6{
-    width:100%;
+#copywrite {
+  font-size: 12px;
 }
 
-#container{
-    padding: 30px;
-      /* background-image: url("img/premier.jpeg");  */
+.related {
+  list-style: none;
 }
- body{
-    background-image: url("img/premier.jpeg");
-} 
+.main-header {
+  background-color: #f7f7f7;
+  margin-bottom: 40px;
+  height: 100px;
+  padding: 0 40px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  width: 500px;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
 
-#d1{
-    color: white;
-    font-size: 60px;
-    font-weight: bold;
+/* Psuedo class dont work perfectly on parent element who have mix elements
+it works only those parent element which have same elements */
+/* li:first-child {
+  font-style: italic;
 }
-#d2{
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
+li:last-child {
+  font-weight: bold;
 }
-.list{
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
-.list:hover{
-    color:rgb(0, 0, 255)
-}
-#divn1{
-    background-image: url("img/livlogo.jpg");
-    background-position:left center;
-    color:white;
-    font-weight: bold;
-}
-#divn2{
-    background-image: url("img/reallogo.jpg");
-    background-position: center;
-    color: white;
-    font-weight: bold;
-}
-#divn3{
-    background-image: url("img/munich.jpg");
-    background-position:left center;
-    color: white;
-    font-weight: bold;
-}
-#divn4{
-    background-image: url("img/juve.jpg");
-    background-position:left center;
-    color: white;
-    font-weight: bold;
-}
-#divn5{
-    background-image: url("img/psglogo.jpg");
-    background-position:left center;
-    color: white;
-    font-weight: bold;
-}
-#divn6{
-    background-image: url("img/ajaxlogo.jpg");
-    background-position:left center;
-    color: white;
-    font-weight: bold;
-}
-.text{
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-#info{
-    background-image: url("img/ucl.jpeg");
-    background-position:top center;
-    padding: 30px;
-    
-    color: white;
-    text-align: justify;
-}
-@media (max-width:430px){
-    body{
-       background-image: url("img/newlogo.jpg");
-    }
-    #d1{
-        font-size: 20px;
+li:nth-child(2) {
+  color: red;
+} */
 
-    }
-    #d2{
-        font-size: 15px;
-        text-decoration: underline;
-    }
-    .list{
-        font-size: 17px;
-    }
-    #info{
-        font-size: 9px;
-        line-height: 1.4em;
-    }
-    .text{
-        font-size: 15px;
-        font-weight: bolder;
-    }
-    #divn3{
-        color:#FFFAFA;
-        
-    }
-    #divn4{
-        color:#708090;
-        background-position: left;
-    }
-    #divn6{
-        color:black;
-        background-position: top left;
-    }
+/* Styling with anchor teg */
+/* LVHA
+  L=link 
+  V= Visited
+  H = Hover
+  A = Active
+
+*/
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+/* a {
+  color: #1098ad;
+} */
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+/* a:active { */
+/* text-decoration: dashed; */
+/* } */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
 }
